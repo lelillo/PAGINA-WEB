@@ -1,0 +1,30 @@
+body{
+  background: ButtonHighlight;
+}
+    #hgroup1{
+    background-color: lightblue;
+    font-family: fantasy;
+    font-size: 26px;
+    }
+    #hgroup2 {
+    background-color: lightblue;
+    font-family: fantasy;
+    font-size: 23px;
+    }
+    #footer1{
+    background: lightsalmon;
+    color: rgb(0, 0, 0);
+    font-family: verdana;font-size: 18px;
+    }
+    #fooder2{
+    background: rgb(206, 206, 206);
+    font-family: verdana;
+    }
+    #header1{
+    background: lightblue;
+    font-family: Fantasy;
+    font-size: 300%;
+    }
+    #articulo1{
+    background-color: lightsalmon;
+    }
