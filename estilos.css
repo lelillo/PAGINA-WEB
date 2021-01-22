@@ -1,5 +1,5 @@
 body{
-  background: ButtonHighlight;
+  background: gray;
 }
     #hgroup1{
     background-color: lightblue;
@@ -12,12 +12,12 @@ body{
     font-size: 23px;
     }
     #footer1{
-    background: lightsalmon;
+    background: cadetblue;
     color: rgb(0, 0, 0);
     font-family: verdana;font-size: 18px;
     }
     #fooder2{
-    background: rgb(206, 206, 206);
+    background: darkgrey;
     font-family: verdana;
     }
     #header1{
@@ -26,5 +26,10 @@ body{
     font-size: 300%;
     }
     #articulo1{
-    background-color: lightsalmon;
+    background-color: cadetblue;
     }
+#adress1{
+  background: dark;
+  color: rgb(0, 0, 0);
+  font-family: verdana;font-size: 23px;
+}
