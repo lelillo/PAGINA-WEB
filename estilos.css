@@ -1,11 +1,29 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
 body{
-  background: #797D7F; text-align: left;
+  background-image: radial-gradient(ellipse farthest-corner, transparent 0%, transparent 35%, #fff 30%, #fff 40%, transparent 90%), radial-gradient(ellipse farthest-corner at 0px 0px, transparent 0%, transparent 20%, #fff 15%, #fff 20%, transparent 50%), radial-gradient(ellipse farthest-corner at 8px 8px, transparent 0%, transparent 20%, #fff 15%, #fff 20%, transparent 50%), radial-gradient(ellipse farthest-corner at 0px 8px, transparent 0%, transparent 20%, #fff 15%, #fff 20%, transparent 40%), radial-gradient(ellipse farthest-corner at 8px 0px, transparent 0%, transparent 20%, #fff 15%, #fff 20%, transparent 50%),  linear-gradient(40deg, #ffe54a 0, #ffed84 30%, #ffed84 50%, gray 70%, black 100%);
+  background-size: 8px 8px, 8px 8px, 8px 8px, 8px 8px, 8px 8px, 100% 100%;
+  text-align: left;
 }
     #hgroup1{
     background-color: lightblue;
     font-family: fantasy;
     font-size: 26px;
     }
+   .menu{
+  padding: 15px 30px;
+  background: silver;
+  border: 2px solid black;
+
+}
+.menu li{
+  list-style: none;
+  padding: 5px;
+  font: bold 15px verdana;
+  display: inline-block;
+}
     #hgroup2 {
     background-color: lightblue;
     font-family: fantasy;
@@ -17,18 +35,28 @@ body{
     font-family: verdana;font-size: 18px;
     }
     #fooder2{
-    background: gray;
+    background: silver;
     font-family: verdana;
+margin: 7px;
+padding: 10px;
     }
     #fooder3{
-    background: gray;
+    background: silver;
     font-family: verdana;
+    margin: 7px;
+    padding: 10px;
+
     }
-    #header1{
+    .header1{
     background: lightblue;
+    border: 3px solid black;
+    padding: 20px;
     font-family: Fantasy;
     font-size: 300%;
     }
+.header1 h1{
+  text-align: center;
+}
     #articulo1{
     background-color: LightSteelBlue;
     }
@@ -37,6 +65,23 @@ body{
   color: rgb(0, 0, 0);
   font-family: verdana;font-size: 23px;
 }
-div{
-  background: #95A5A6;
+.conjunto{
+width: 960px;
+border: 2px solid #85C1E9;
+background-image: radial-gradient(ellipse farthest-corner, transparent 0%, transparent 35%, #fff 30%, #fff 40%, transparent 90%), radial-gradient(ellipse farthest-corner at 0px 0px, transparent 0%, transparent 20%, #fff 15%, #fff 20%, transparent 50%), radial-gradient(ellipse farthest-corner at 8px 8px, transparent 0%, transparent 20%, #fff 15%, #fff 20%, transparent 50%), radial-gradient(ellipse farthest-corner at 0px 8px, transparent 0%, transparent 20%, #fff 15%, #fff 20%, transparent 40%), radial-gradient(ellipse farthest-corner at 8px 0px, transparent 0%, transparent 20%, #fff 15%, #fff 20%, transparent 50%),  linear-gradient(40deg, #ffed84 0, #ffed84 30%, #ffed84 50%, lightblue  70%, lightblue 100%);
+ background-size: 8px 8px, 8px 8px, 8px 8px, 8px 8px, 8px 8px, 100% 100%;
+margin: 50px auto;
+padding: 100px;
+}
+.seccion1{
+  margin: 1px;
+  padding: 20px;
+}
+.seccion2{
+  margin: 1px;
+  padding: 20px;
+}
+.seccion3{
+  margin: 1px;
+  padding: 20px;
 }
