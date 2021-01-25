@@ -34,10 +34,9 @@ body{
 .hgroup3{
   float: right;
   margin: -40px;
-  padding: 10px;
-  border: 1px solid black;
-  font-size: 12px;
-  font-family: verdana;
+  padding: 3px;
+font-size: 14px;
+  font-family: cambria;
 
 }
 #footer1{
@@ -64,11 +63,9 @@ body{
 
 }
 .img1 img:hover{
-  filter: contrast(1000);
-  margin: 10px auto;
-
-
-
+  filter:  invert(100);
+  margin: 8px auto;
+margin: 20px;
 }
 .header1{
   background: lightblue;
@@ -88,10 +85,10 @@ body{
 .address1{
   background: dark;
   color: rgb(0, 0, 0);
-  font-family: fantasy;font-size: 40px;
+  font-family: fantasy;font-size: 35px;
 display: block;
 float: right;
-margin: 25px auto;
+margin: -160px auto;
 padding: 50px;
 
 }
@@ -128,7 +125,7 @@ padding: 50px;
   margin: 50px auto;
 padding: 50px;
 }
-header,section,footer,aside,nav,article,hgroup,p,address{
+header,section,footer,aside,nav,article,hgroup,p,address,img{
   display: block;
 
 }
