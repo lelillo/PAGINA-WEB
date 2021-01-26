@@ -1,0 +1,47 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-image: radial-gradient(ellipse farthest-corner, transparent 0%, transparent 35%, #fff 30%, #fff 40%, transparent 90%), radial-gradient(ellipse farthest-corner at 0px 0px, transparent 0%, transparent 20%, #fff 15%, #fff 20%, transparent 50%), radial-gradient(ellipse farthest-corner at 8px 8px, transparent 0%, transparent 20%, #fff 15%, #fff 20%, transparent 50%), radial-gradient(ellipse farthest-corner at 0px 8px, transparent 0%, transparent 20%, #fff 15%, #fff 20%, transparent 40%), radial-gradient(ellipse farthest-corner at 8px 0px, transparent 0%, transparent 20%, #fff 15%, #fff 20%, transparent 50%),  linear-gradient(40deg, darkseagreen 0, darkseagreen 30%, darkseagreen 50%, #8b0000 70%, #8b0000 100%);
+  background-size: 8px 8px, 8px 8px, 8px 8px, 8px 8px, 8px 8px, 100% 100%;
+  text-align: right;
+}
+.cuerpo{
+  width: 1150px;
+  padding: 5px;
+  margin:  20px auto;
+  border: 2px solid black;
+  background-image: radial-gradient(ellipse farthest-corner, transparent 0%, transparent 35%, #fff 30%, #fff 40%, transparent 90%), radial-gradient(ellipse farthest-corner at 0px 0px, transparent 0%, transparent 20%, #fff 15%, #fff 20%, transparent 50%), radial-gradient(ellipse farthest-corner at 8px 8px, transparent 0%, transparent 20%, #fff 15%, #fff 20%, transparent 50%), radial-gradient(ellipse farthest-corner at 0px 8px, transparent 0%, transparent 20%, #fff 15%, #fff 20%, transparent 40%), radial-gradient(ellipse farthest-corner at 8px 0px, transparent 0%, transparent 20%, #fff 15%, #fff 20%, transparent 50%),  linear-gradient(40deg, darkseagreen 0, darkseagreen 30%, darkseagreen 50%, #8b0000 70%, #8b0000 100%);
+  background-size: 8px 8px, 8px 8px, 8px 8px, 8px 8px, 8px 8px, 100% 100%;
+  text-align: left;
+}
+.header1{
+  font-family: fantasy;
+  font-size: 40px;
+  padding: 20px;
+  background: #8b0000;
+  border: 2px solid black;
+
+
+}
+.header1 h1{
+  text-align: center;
+}
+.menu{
+  border: 1px solid black;
+    background: silver;
+    padding: 20px 35px
+    border: 1px solid black;
+}
+.menu li{
+  font-family: cambria;
+  font-size: 25px;
+  display: inline-block;
+  list-style: none;
+  border-right: 2px solid black;
+  margin:6px;
+  padding: 7px
+
+
+}

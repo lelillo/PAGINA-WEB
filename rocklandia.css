@@ -1,0 +1,36 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-image: radial-gradient(ellipse farthest-corner, transparent 0%, transparent 35%, #fff 30%, #fff 40%, transparent 90%), radial-gradient(ellipse farthest-corner at 0px 0px, transparent 0%, transparent 20%, #fff 15%, #fff 20%, transparent 50%), radial-gradient(ellipse farthest-corner at 8px 8px, transparent 0%, transparent 20%, #fff 15%, #fff 20%, transparent 50%), radial-gradient(ellipse farthest-corner at 0px 8px, transparent 0%, transparent 20%, #fff 15%, #fff 20%, transparent 40%), radial-gradient(ellipse farthest-corner at 8px 0px, transparent 0%, transparent 20%, #fff 15%, #fff 20%, transparent 50%),  linear-gradient(40deg, lightblue 0, lightblue 30%, lightgrey 50%, gray 70%, gray 100%);
+  background-size: 8px 8px, 8px 8px, 8px 8px, 8px 8px, 8px 8px, 100% 100%;
+  text-align: left;
+}
+.cuerpo1{
+  width: 1150px;
+  border: 1px solid;
+  margin: 20px auto;
+  padding: 5px;
+  }
+  .header1{
+border: 1px solid black;
+    font-family: fantasy;
+font-size: 40px;
+    background: lightblue
+
+    }
+.menu{
+border: 1px solid black;
+  background: silver;
+  padding: 20px 35px
+  border: 1px solid black;
+}
+.menu li{
+  font-family: Cambria;
+  font-size: 25px;
+  border-right: 2px solid black;
+  display: inline-block;
+  padding: 7px;
+  margin: 5px 10px
+}
