@@ -7,6 +7,10 @@
   <meta name="author" content="Juan Daniel Rodriguez Mendoza"/>
   <meta name="keywords" content="noticias,ROCK,Blog"/>
   <link rel="stylesheet" href="estilos.css">
+<link rel="stylesheet" href="css/mi-slider.css">
+<link rel="stylesheet" href="css/nivo-slider.css">
+
+</script>
 </head>
 <body>
   <div class="conjunto">
@@ -48,11 +52,34 @@
           <h1>ROCKEROTECA</h1>
           <h0.5><a href="rockeroteca.html">(Encuentra aquí las historias de tus bandas favoritas)</a><h0.5>
           </hgroup>
+<footer class="img2">
+<img name="slide">
+<script>
+  window.addEventListener('load', function() {
+    console.log('el contenido a cargado');
+var imagenes = [];
 
-        <footer class="img2">
-          <img src="images/Led.jpg">
-        </footer>
-        <footer id="fooder3">
+imagenes[0] = 'images/ACDC.jpg';
+imagenes[1] = 'images/Led.jpg';
+imagenes[2] = 'images/Super.jpg'
+ var indicedeimagenes = 0;
+var Tiempo = 5000;
+function rotarImagenes() {
+
+  document.slide.src= imagenes[indicedeimagenes];
+
+    if (indicedeimagenes < 2) {
+      indicedeimagenes++;
+    } else {
+      indicedeimagenes = 0;
+    }
+}
+setInterval(rotarImagenes, Tiempo);
+
+});
+</script>
+</footer>
+<footer id="fooder3">
           <p>Comentarios (0)</p>
         </footer>
 
