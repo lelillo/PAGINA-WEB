@@ -8,12 +8,14 @@ body{
   text-align: left;
 }
 .conjunto{
-  width: 1150px;
-  border: 1px solid black;
+  width: 1144px;
+  border: 2px solid black;
 padding: 5px;
 margin: 20px auto;
+background-image: radial-gradient(ellipse farthest-corner, transparent 0%, transparent 35%, #fff 30%, #fff 40%, transparent 90%), radial-gradient(ellipse farthest-corner at 0px 0px, transparent 0%, transparent 20%, #fff 15%, #fff 20%, transparent 50%), radial-gradient(ellipse farthest-corner at 8px 8px, transparent 0%, transparent 20%, #fff 15%, #fff 20%, transparent 50%), radial-gradient(ellipse farthest-corner at 0px 8px, transparent 0%, transparent 20%, #fff 15%, #fff 20%, transparent 40%), radial-gradient(ellipse farthest-corner at 8px 0px, transparent 0%, transparent 20%, #fff 15%, #fff 20%, transparent 50%),  linear-gradient(40deg, darkseagreen 0, darkseagreen 30%, darkseagreen 50%, red 70%, red 100%);
+background-size: 8px 8px, 8px 8px, 8px 8px, 8px 8px, 8px 8px, 100% 100%;
+text-align: left
 }
-
 .header1{
   font-family: fantasy;
   background: Red;
@@ -44,3 +46,45 @@ margin: 20px auto;
 header,nav{
   display: block;
 }
+.hgroup1{
+  border: 2px solid black;
+
+}
+.hgroup2{
+  font-family: fantasy;
+  font-size: 30px;
+text-align: center;
+  padding-right: 100x;
+border: 2px solid black;
+margin: 20px 0;
+}
+.text1{
+  border: 2px solid black;
+  float: right;
+margin: -215px 40px;
+padding: 30px;
+width: 560px ;
+font-size: 25px;
+font-family: cambria;
+}
+
+.img1 img:hover{
+  filter: grayscale(100);
+  margin: 8px;
+  margin: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+.pie{
+  clear: both;
+}
+header,section,footer,aside,hgroup,p,address,{
+  display: block;
