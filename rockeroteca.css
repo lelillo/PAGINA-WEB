@@ -3,7 +3,7 @@
   padding: 0px;
 }
 body{
-  background-image: radial-gradient(ellipse farthest-corner, transparent 0%, transparent 35%, #fff 30%, #fff 40%, transparent 90%), radial-gradient(ellipse farthest-corner at 0px 0px, transparent 0%, transparent 20%, #fff 15%, #fff 20%, transparent 50%), radial-gradient(ellipse farthest-corner at 8px 8px, transparent 0%, transparent 20%, #fff 15%, #fff 20%, transparent 50%), radial-gradient(ellipse farthest-corner at 0px 8px, transparent 0%, transparent 20%, #fff 15%, #fff 20%, transparent 40%), radial-gradient(ellipse farthest-corner at 8px 0px, transparent 0%, transparent 20%, #fff 15%, #fff 20%, transparent 50%),  linear-gradient(40deg, darkseagreen 0, darkseagreen 30%, darkseagreen 50%, #8b0000 70%, #8b0000 100%);
+  background-image: radial-gradient(ellipse farthest-corner, transparent 0%, transparent 35%, #fff 30%, #fff 40%, transparent 90%), radial-gradient(ellipse farthest-corner at 0px 0px, transparent 0%, transparent 20%, #fff 15%, #fff 20%, transparent 50%), radial-gradient(ellipse farthest-corner at 8px 8px, transparent 0%, transparent 20%, #fff 15%, #fff 20%, transparent 50%), radial-gradient(ellipse farthest-corner at 0px 8px, transparent 0%, transparent 20%, #fff 15%, #fff 20%, transparent 40%), radial-gradient(ellipse farthest-corner at 8px 0px, transparent 0%, transparent 20%, #fff 15%, #fff 20%, transparent 50%),  linear-gradient(40deg, gold 0, gold 30%, lightgray 50%, lightgray 70%, lightgray 100%);
   background-size: 8px 8px, 8px 8px, 8px 8px, 8px 8px, 8px 8px, 100% 100%;
   text-align: left;
 }
@@ -12,15 +12,16 @@ body{
   border: 2px solid black;
 padding: 5px;
 margin: 20px auto;
-background-image: radial-gradient(ellipse farthest-corner, transparent 0%, transparent 35%, #fff 30%, #fff 40%, transparent 90%), radial-gradient(ellipse farthest-corner at 0px 0px, transparent 0%, transparent 20%, #fff 15%, #fff 20%, transparent 50%), radial-gradient(ellipse farthest-corner at 8px 8px, transparent 0%, transparent 20%, #fff 15%, #fff 20%, transparent 50%), radial-gradient(ellipse farthest-corner at 0px 8px, transparent 0%, transparent 20%, #fff 15%, #fff 20%, transparent 40%), radial-gradient(ellipse farthest-corner at 8px 0px, transparent 0%, transparent 20%, #fff 15%, #fff 20%, transparent 50%),  linear-gradient(40deg, darkseagreen 0, darkseagreen 30%, darkseagreen 50%, red 70%, red 100%);
+background-image: radial-gradient(ellipse farthest-corner, transparent 0%, transparent 35%, #fff 30%, #fff 40%, transparent 90%), radial-gradient(ellipse farthest-corner at 0px 0px, transparent 0%, transparent 20%, #fff 15%, #fff 20%, transparent 50%), radial-gradient(ellipse farthest-corner at 8px 8px, transparent 0%, transparent 20%, #fff 15%, #fff 20%, transparent 50%), radial-gradient(ellipse farthest-corner at 0px 8px, transparent 0%, transparent 20%, #fff 15%, #fff 20%, transparent 40%), radial-gradient(ellipse farthest-corner at 8px 0px, transparent 0%, transparent 20%, #fff 15%, #fff 20%, transparent 50%),  linear-gradient(40deg, gold 0, gold 30%, gold 50%,lightgray 70%, lightgray 100%);
 background-size: 8px 8px, 8px 8px, 8px 8px, 8px 8px, 8px 8px, 100% 100%;
 text-align: left
 }
 .header1{
   font-family: fantasy;
-  background: Red;
+  background: firebrick;
   font-size: 300%;
   margin: 30px solid black;
+  border: 7px solid black;
  }
 .header1 h1{
   text-align: center;
@@ -47,16 +48,27 @@ header,nav{
   display: block;
 }
 .hgroup1{
-  border: 2px solid black;
+  border: 4px solid black;
+  font-family: fantasy;
+  font-size: 60px;
+  background: #D1CBC5;
+  text-align: center;
+margin: 30px auto;
+  padding-top: 5px;
+  width: 5px auto;
 
+}
+.hgroup1 h1{
+  display: block;
 }
 .hgroup2{
   font-family: fantasy;
-  font-size: 30px;
+  font-size: 35px;
 text-align: center;
   padding-right: 100x;
-border: 2px solid black;
+border: 3px solid black;
 margin: 20px 0;
+background: #EA8E2D;
 }
 .text1{
   border: 2px solid black;
@@ -66,6 +78,7 @@ padding: 30px;
 width: 560px ;
 font-size: 25px;
 font-family: cambria;
+background: #D1CBC5 ;
 }
 
 .img1 img:hover{
@@ -74,7 +87,10 @@ font-family: cambria;
   margin: 2px;
 }
 
-
+.Datos1{
+  font-family: cambria;
+  font-size: 25px;
+}
 
 
 

@@ -1,0 +1,47 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  text-align: center;
+  background-image: url("images/acdcfond.jpg");
+
+}
+.Diseño1{
+    background-image: url("images/acdcfond.jpg"), radial-gradient(ellipse farthest-corner,transparent 100%);
+   color: red;
+   font-family: fantasy;
+   font-size: 40px;
+   border: 5px red solid ;
+width: 1144px;
+margin: 20px auto;
+padding: 5px;
+
+}
+.barra li{
+border-right: 4px solid black;
+text-decoration-color: Red;
+display: inline-block;
+list-style: none;
+padding: 40px
+
+}
+.barra{
+ text-decoration-style: 8px solid;
+text-decoration-color: white;
+background: #EDE1DF;
+}
+.articulo{
+  color: white;
+  font-size: 21px;
+  font-family: cambria;
+  text-align: left;
+  background: black;
+
+}
+.Titulo2{
+  color: white;
+  font-family: fantasy;
+  font-size: 30px;
+  text-align: center;
+}
